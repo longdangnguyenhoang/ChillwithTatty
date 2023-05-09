@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillwithTatty</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="hot.css">
+    <link rel="stylesheet" href="side-icons.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="feature.css">
+</head>
+
+<body>
+<!-- HEADER -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 header-col p-2">
+                    <img src="./icons/logo.png" alt="">
+                </div>
+                <div class="col-md-4 header-col">
+                    <div class="d-flex align-items-center h-100">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Bạn cần tìm gì./icons/hot.webp" aria-label="Bạn cần tìm gì./icons/hot.webp" aria-describedby="basic-addon2">
+                            <span class="btn btn-primary" id="basic-addon2">Tìm kiếm</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-5 header-col">
+                    <div class="row">
+                        <div class="col-md-3 d-flex align-items-center justify-content-center p-1" style="line-height: 1rem;">
+                            <i class="las la-phone-volume"></i>
+                            <div>
+                                <p style="color: #fff; font-size: 14px;" class="mb-1">Gọi mua hàng</p>
+                                <b><a href="#">1900.068.865</a></b>
+                            </div>
+                       </div>
+                       <div class="col-md-3 d-flex align-items-center justify-content-center" style="line-height: 1rem;">
+                            <i class="las la-map-marker"></i>
+                            <a href="#">Hệ thống cửa hàng</a>
+                       </div>
+                       <div class="col-md-3 d-flex align-items-center justify-content-center" style="line-height: 1rem;">
+                            <i class="las la-user"></i>
+                            <div>
+                                <a class="mb-1" href="#">Tài khoản</a>
+                                <a href="#" style="font-size: 11px;">Đăng nhập</a>
+                            </div>
+                       </div>
+                       <div class="col-md-3 d-flex align-items-center justify-content-center w-25 p-0">
+                            <div class="cart d-flex align-items-center justify-content-center">
+                                <i class="las la-shopping-cart p-0"></i>
+                                <a class="mb-1 cart-text" href="#">Giỏ hàng</a>
+                            </div>
+                       </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+<!-- CONTENT -->
+    <div class="content">
+        <div class="container">
+        <!-- CATEGORY -->
+            <div class="category">
+                <div class="container">
+                    <div class="category-header">
+                        <div class="row h-100">
+                            <div class="col-md-3 d-flex align-items-center p-1 h-100" style="background-color: #303132; color: #fff;">
+                                <i class="las la-bars d-flex align-items-center justify-content-center" style="font-size: 1.5rem; border: 2px solid #fff; border-radius: 2px; margin:0 0.5rem 0 0.5rem;"></i>                                
+                                <b><p class="d-flex align-items-center m-1">DANH MỤC SẢN PHẨM</p></b>
+                            </div>
+                            <div class="col-md-9 d-flex align-items-center policies">
+                                <ul class="d-flex align-items-center">
+                                    <li>
+                                        <i class="las la-search"></i>
+                                        <a href="#">Tra cứu thời hạn bảo hành</a>    
+                                    </li>
+                                    <li>
+                                        <i class="las la-clipboard-list"></i>
+                                        <a href="#">Chính sách bảo hành</a>
+                                    </li>
+                                    <li>
+                                        <i class="las la-question-circle"></i>
+                                        <a href="#">Câu hỏi thường gặp</a>
+                                    </li>
+                                    <li>
+                                        <i class="las la-phone"></i>
+                                        <a href="#">Liên hệ kinh doanh</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <div class="row">
+                            <div class="col-md-3 d-flex align-items-center p-0" style="border: 1px solid rgba(0, 0, 0, 0.121); border-radius: 0 0 5px 5px;">
+                                <ul class="w-100" style="position: relative; min-height: 340px">
+                                    <li class="sidebar-item">
+                                        <a href="#"><i class="las la-gift"></i></a>
+                                        <a href="#">Tổng hợp khuyến mãi</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="#"><i class="las la-pen"></i></a>
+                                        <a href="#">Bút cảm ứng</a>
+                                    </li>
+                                    <li class="sidebar-item has-sub">
+                                        <div class="h-100 d-flex align-items-center">
+                                            <a href="#"><i class="las la-tablet-alt"></i></a>
+                                            <a href="#">Phụ kiện Ipad</a>
+                                                <div class="sub-menu">
+                                                <a href="#" class="sub-menu-item">Dán màn hình Ipad</a>
+                                                <a href="#" class="sub-menu-item">Bao da Ipad</a>
+                                                <a href="#" class="sub-menu-item">Túi đựng Ipad</a>
+                                                <a href="#" class="sub-menu-item">Đế dựng laptop, Ipad</a>
+                                            </div>
+                                        </div>
+                                        <i class="las la-angle-right d-flex-end" style="font-size: 1rem;"></i>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="#"><i class="las la-desktop"></i></a>
+                                        <a href="#">Phụ kiện khác</a>
+                                    </li>            
+                                </ul>
+                            </div>
+                            <div class="col-md-9">
+                                <div id="carouselExampleIndicators" class="carousel slide">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="slide-control active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="slide-control" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="slide-control" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./icons/slider_1.webp" class="d-block w-100" alt="./icons/hot.webp">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./icons/slider_2.webp" class="d-block w-100" alt="./icons/hot.webp">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./icons/slider_3.webp" class="d-block w-100" alt="./icons/hot.webp">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" style="width: 4rem"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <div class="d-flex justify-content-center align-items-center p-1" style="border-radius: 50%; background-color: black;">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>    
+                                        </div>
+                                    </button>
+                                    <button class="carousel-control-next" style="width: 4rem" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <div class="d-flex justify-content-center align-items-center p-1" style="border-radius: 50%; background-color: black;">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>    
+                                        </div>
+                                    </button>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- HOT -->
+            <div class="hot">
+                <div class="container">
+                    <div class="p-2">
+                        <b><p class="m-0" style="color:white; font-size: 1.25rem;">SẢN PHẨM NỔI BẬT</p></b>
+                    </div>
+                    <div class="hot-info d-flex">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                <p class="card-text">1.290.000₫</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                <p class="card-text">1.290.000₫</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                <p class="card-text">1.290.000₫</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                <p class="card-text">1.290.000₫</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                <p class="card-text">1.290.000₫</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- FEATURES -->
+            <div class="features">
+                <div class="container p-0">
+                    <div class="features-item">
+                        <div>
+                            <a href="#"><b><p style="font-size: 1.25rem;">Bút cảm ứng</p></b></a>
+                        </div>
+                        <div class="features-card d-flex">
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/hot.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features-item">
+                        <div>
+                            <a href="#"><b><p style="font-size: 1.25rem;">Phụ kiện bút cảm ứng</p></b></a>
+                        </div>
+                        <div class="features-card d-flex">
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/but2.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/but2.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/but2.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="see-all d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn btn-outline-dark m-3">
+                                Xem tất cả >
+                            </button>
+                        </div>
+                    </div>
+                    <img src="./icons/section_hot_banner.webp" class="banner w-100" alt="">
+                    <div class="features-item">
+                        <div>
+                            <a href="#"><b><p style="font-size: 1.25rem;">Phụ kiện Ipad</p></b></a>
+                        </div>
+                        <div class="features-card d-flex">
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/but3.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/but3.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 16rem;">
+                                <img src="./icons/but3.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="#">BÚT CẢM ỨNG CWT PENCIL 2.5</a>
+                                    <p class="card-text">1.290.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="see-all d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn btn-outline-dark m-3">
+                                Xem tất cả >
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- NEWS -->
+            <div class="news">
+                <div class="container">
+                    <div class="p-2">
+                        <b><p class="m-0" style="font-size: 1.25rem;">Tin tức</p></b>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="icons/1.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">Chương trình hỗ trợ lên đời sản phẩm bút cảm ứng CWT Pencil</p>
+                                      <p style="font-size: 0.75rem; opacity: 0.8;">Thứ Tư, 26/04/2023</p>
+                                      <p>CHƯƠNG TRÌNH NÂNG CẤP LÊN ĐỜI SẢN PHẨM CWT PENCIL   Với nhu cầu nâng cấp thiết bị máy tính bảng hiện nay ngày càng tăng, CWT cũng...</p>
+                                      <a href="#">Đọc tiếp</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="icons/1.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Chương trình hỗ trợ lên đời sản phẩm bút cảm ứng CWT Pencil</p>
+                                        <p style="font-size: 0.75rem; opacity: 0.8;">Thứ Tư, 26/04/2023</p>
+                                        <p>CHƯƠNG TRÌNH NÂNG CẤP LÊN ĐỜI SẢN PHẨM CWT PENCIL   Với nhu cầu nâng cấp thiết bị máy tính bảng hiện nay ngày càng tăng, CWT cũng...</p>
+                                        <a href="#">Đọc tiếp</a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="icons/1.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Chương trình hỗ trợ lên đời sản phẩm bút cảm ứng CWT Pencil</p>
+                                        <p style="font-size: 0.75rem; opacity: 0.8;">Thứ Tư, 26/04/2023</p>
+                                        <p>CHƯƠNG TRÌNH NÂNG CẤP LÊN ĐỜI SẢN PHẨM CWT PENCIL   Với nhu cầu nâng cấp thiết bị máy tính bảng hiện nay ngày càng tăng, CWT cũng...</p>
+                                        <a href="#">Đọc tiếp</a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="icons/1.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Chương trình hỗ trợ lên đời sản phẩm bút cảm ứng CWT Pencil</p>
+                                        <p style="font-size: 0.75rem; opacity: 0.8;">Thứ Tư, 26/04/2023</p>
+                                        <p>CHƯƠNG TRÌNH NÂNG CẤP LÊN ĐỜI SẢN PHẨM CWT PENCIL   Với nhu cầu nâng cấp thiết bị máy tính bảng hiện nay ngày càng tăng, CWT cũng...</p>
+                                        <a href="#">Đọc tiếp</a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="icons/1.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Chương trình hỗ trợ lên đời sản phẩm bút cảm ứng CWT Pencil</p>
+                                        <p style="font-size: 0.75rem; opacity: 0.8;">Thứ Tư, 26/04/2023</p>
+                                        <p>CHƯƠNG TRÌNH NÂNG CẤP LÊN ĐỜI SẢN PHẨM CWT PENCIL   Với nhu cầu nâng cấp thiết bị máy tính bảng hiện nay ngày càng tăng, CWT cũng...</p>
+                                        <a href="#">Đọc tiếp</a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="icons/1.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Chương trình hỗ trợ lên đời sản phẩm bút cảm ứng CWT Pencil</p>
+                                        <p style="font-size: 0.75rem; opacity: 0.8;">Thứ Tư, 26/04/2023</p>
+                                        <p>CHƯƠNG TRÌNH NÂNG CẤP LÊN ĐỜI SẢN PHẨM CWT PENCIL   Với nhu cầu nâng cấp thiết bị máy tính bảng hiện nay ngày càng tăng, CWT cũng...</p>
+                                        <a href="#">Đọc tiếp</a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container see-all p-1">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <a href="#"><p class="m-0">Xem tất cả ></p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>   
+    </div>
+
+    <!-- FOOTER -->
+    <div class="top-footer">
+        <div class="container h-100">
+            <div class="row d-flex align-items-center h-100">
+                <div class="col-md-5">
+                    <ul class="d-flex align-items-center p-0">
+                        <li>
+                            <a href="#"><img src="./icons/tiktok.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./icons/facebook.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./icons/instagram.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <div class="row d-flex align-items-center h-100">
+                        <div class="col-md-1">
+                            <i class="las la-envelope d-flex align-items-center justify-content-center"></i>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Bạn muốn nhận khuyến mãi đặc biệt?</p>
+                            <p>Đăng ký ngay.</p>
+                        </div>
+                        <div class="col-md-7 d-flex align-items-center justify-content-center m-0">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Thả email nhận ngay ưu đãi.." aria-describedby="basic-addon2">
+                                <span class="input-group-text btn btn-primary" id="basic-addon2">Đăng ký</span>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bot-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">
+                        <img class="w-100" src="./icons/logo-footer.webp" alt="">
+                    </a>
+                    <p>Công ty TNHH TATTY BLUE - GPĐKKD: 0109976375 cấp tại KH & ĐT TP Hà Nội.</p>
+                    <div class="d-flex align-items-center">
+                        <i class="las la-map-marker"></i>
+                        <p class="m-0"><b>Địa chỉ: </b>694a Lạc Long Quân - Tây Hồ - Hà Nội</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="las la-mobile"></i>
+                        <p class="m-0"><b>Số điện thoại: </b><a href="#">1900.068.865</a></p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="las la-envelope"></i>
+                        <p class="m-0"><b>Email: </b><a href="#">Chillwthtatty19@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <b>Hỗ trợ khách hàng</b>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Tìm kiếm</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Hướng dẫn mua hàng online</a></li>
+                    <li><a href="#">Tra cứu đơn hàng</a></li>
+                    <li><a href="#">Phương thức thanh toán</a></li>
+                </div>
+                <div class="col-md-2">
+                    <b>Hỗ trợ khách hàng</b>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách vận chuyển</a></li>
+                    <li><a href="#">Chính sách Kiểm hàng và Đổi trả hàng</a></li>
+                </div>
+                <div class="col-md-4">
+                    <b>Tổng đài hỗ trợ</b>
+                    <li><p>Gọi mua hàng: <b><a href="#" style="color: #007bff;">1900.068.865</a></b> (Nhánh số 1)</p></li>
+                    <li><p>Gọi bảo hành: <b><a href="#" style="color: #007bff;">1900.068.865</a></b> (Nhánh số 1)</p></li>
+                    <li><p>Tiếp nhận phản ánh dịch vụ: <b><a href="#" style="color: #007bff;">1900.068.865</a></b> (Nhánh số 3)</p></li>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- SIDE ICONS -->
+    <div class="side-icons">
+        <div id="go-to-top" class="hide mb-1" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lên đầu trang" style="background-color: black; border-radius: 50%; height: 40px; width: 40px;" onclick="window.scrollTo(0, 0)">
+            <i class="las la-angle-up" style="color: #fff;"></i>
+        </div>
+        <div class="mb-1" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Gọi ngay cho chúng tôi">
+            <img src="./icons/addthis-phone.svg" alt="">
+        </div>
+        <div data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Chat với chúng tôi qua Zalo">
+            <img src="./icons/addthis-zalo.svg" alt="">
+        </div>     
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+
+<script>
+    window.addEventListener("scroll", function () {
+        var position = this.pageYOffset;
+        if (position > 100) {
+            document.getElementById('go-to-top').classList.remove('hide')
+        } else {
+            document.getElementById('go-to-top').classList.add('hide')
+        }
+    })
+
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</html>
