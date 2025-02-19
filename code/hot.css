@@ -1,0 +1,35 @@
+.hot {
+    margin-top: 3rem;
+}
+
+.hot .container {
+    border-radius: 5px;
+    background-color: black;
+    height: 100%;
+}
+
+.hot-info {
+    justify-content: space-between;
+}
+
+.hot .card {
+    margin: 0 0.25rem 1rem 0.25rem;
+}
+
+.hot .card a {
+    text-decoration: none;
+    color: black;
+}
+
+.hot .card p {
+    font-weight: bold;
+    color: #0071e7;
+}
+
+.hot .card:nth-child(1) {
+    margin-left: 0;
+}
+
+.hot .card:nth-child(5) {
+    margin-right: 0;
+}

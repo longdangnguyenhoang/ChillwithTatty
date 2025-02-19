@@ -1,0 +1,21 @@
+.side-icons {
+    position: fixed; 
+    bottom: 5rem; 
+    right: 1rem;
+}
+
+#go-to-top.hide {
+    display: none;
+}
+
+#go-to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.side-icons img {
+    height: 40px; 
+    width: 40px;
+}

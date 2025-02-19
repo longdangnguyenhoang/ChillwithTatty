@@ -1,0 +1,21 @@
+.features {
+    margin-top: 3rem;
+}
+
+.features-item {
+    margin-top: 3rem;
+}
+
+.features-item a {
+    text-decoration: none;
+    color: black;
+}
+
+img.banner {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+img.banner:hover {
+    transform: scale(0.95);
+}
